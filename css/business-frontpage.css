@@ -1,0 +1,183 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+html {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+@font-face {
+  font-family: "Cafe Nero";
+  src: url("../fonts/Cafe Nero M54.ttf");
+}
+
+.logo {
+  font-family: "Cafe Nero" !important; 
+ text-shadow: 1px 2px 0px rgba(150, 150, 150, 1) !Important; 
+  color:rgb(123,137,202) !Important; 
+font-size: 25px;
+}
+.icono {
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    width: 60px;
+    top: 0.2em;
+    left: 2.5em;
+    position: fixed;
+    background: url('../img/icon.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    border-style:none !important;
+    outline: none;
+}
+a img {
+    border:none !important;
+    border-style:none !important;
+    outline: none !important;
+}
+.navbar-nav {
+    font-weight: bold;
+}
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 300px;
+    background: url('../img/header.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-size: xx-large;
+   
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+.tw {
+    height: 350px;
+    width: 300px;
+    background: url('../img/tw.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.showmypc {
+    height: 350px;
+    width: 300px;
+    background: url('../img/showpc.jpg');
+    background-size: 300px 350px;
+}
+.anydesk {
+    height: 350px;
+    width: 300px;
+    background: url('../img/anydesk.png');
+    background-size: 300px 350px;
+}
+.sp {
+    height: 300px;
+    width: 300px;
+    background: url('../img/Imagen9.png');
+    background-size: 500px 500px;
+}
+
+
+.sp1 {
+    height: 300px;
+    width: 300px;
+    background: url('../img/ADMIN.png');
+    background-size: 500px 500px;
+}
+
+.backt {
+    background: rgba(0, 0, 0,0.2);
+}
+
+.col-xs-6 {
+    margin-top:5% !important;
+}
+
+.justificar {
+    text-align :justify !important;
+}
+p{
+    /*font-family: 'Nixie One', cursive !important;*/  
+    /*font-family: 'Cabin', sans-serif !important;*/
+    /*font-family: 'Yanone Kaffeesatz', sans-serif !important;*/
+    font-family: 'Ubuntu', sans-serif!important;
+    font-style: normal;
+    text-align: justify !important;
+}
+.oculto {
+    display:none;
+}
+.pm{
+    padding: auto;
+    margin: auto;
+}
+.t {
+    position:fixed !important;
+    top:0px !important;
+    left:0px !important;
+    height: 100%;
+    width: 100%;
+    /*z-index:-1500 !important;*/
+/*
+    filter:alpha(opacity=65) !important;
+   -moz-opacity:65 !important;
+    opacity:0.65 !important;
+*/
+    background:rgba(0, 0, 0, 0.65) !important;
+}
+.cajalogin {
+    margin: 200px auto !important;
+    width: 350px !important;
+    border-radius: 8px;
+    padding: 50px;
+    border 1px solid black !important;
+}
+.inputss {
+  margin: 15px 0 !important;
+  font-size: 16px !important;
+  padding: 10px !important;
+  width: 250px !important;
+  border: 1px solid rgb(0, 0, 0) !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  background: rgba(255, 252, 252, 0.2) !important;
+  color: white !important;
+  outline: none !important;
+}
+
+.container-fuild{
+    height: 350px;
+    width: 300px;
+    background: url('../img/ventas.png') center center no-repeat scroll;
+    
+    
+}
